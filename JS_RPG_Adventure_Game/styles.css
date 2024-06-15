@@ -53,6 +53,10 @@ body{
 
   /* Media Queries */
 @media screen and (max-width: 640px){
+  body{
+    background-image: url(./img/bg.png);
+    background-size: 100% 170%;
+  }
 
   #game{
     max-width: 300px;
